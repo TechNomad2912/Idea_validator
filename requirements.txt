@@ -1,0 +1,6 @@
+flask
+flask-cors
+python-dotenv
+phi
+phi-models-google
+gunicorn 
