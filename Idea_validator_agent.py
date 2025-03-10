@@ -1,3 +1,7 @@
+import inspect
+if not hasattr(inspect, 'getargspec'):
+    inspect.getargspec = inspect.getfullargspec
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from phi.agent import Agent
