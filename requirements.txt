@@ -4,3 +4,4 @@ python-dotenv
 phi
 gunicorn 
 phidata
+google-generativeai
